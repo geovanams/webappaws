@@ -5,9 +5,9 @@
       "TargetService": {
         "Type": "AWS::ECS::Service",
         "Properties": {
-          "TaskDefinition": "arn:aws:ecs:us-east-2:688567266025:task-definition/webapptaskd:6",
+          "TaskDefinition": "arn:aws:ecs:us-east-2:688567266025:task-definition/webapptaskd:10",
           "LoadBalancerInfo": {
-            "ContainerName": "ecrwebapp-80-tcp",
+            "ContainerName": "ecrwebapp",
             "ContainerPort": 80
           }
         }
